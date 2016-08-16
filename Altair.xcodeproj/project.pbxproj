@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F4E1AEE1D5C02B7007EDB13 /* altairApp in Resources */ = {isa = PBXBuildFile; fileRef = 2F4E1AED1D5C02B7007EDB13 /* altairApp */; };
+		2FA1A68D1D5934DA00FCD279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1A68C1D5934DA00FCD279 /* AppDelegate.swift */; };
+		2FA1A68F1D5934DA00FCD279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1A68E1D5934DA00FCD279 /* Assets.xcassets */; };
+		2FA1A6921D5934DA00FCD279 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA1A6901D5934DA00FCD279 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F4E1AED1D5C02B7007EDB13 /* altairApp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = altairApp; sourceTree = "<group>"; };
+		2FA1A6891D5934DA00FCD279 /* Altair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA1A68C1D5934DA00FCD279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FA1A68E1D5934DA00FCD279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA1A6911D5934DA00FCD279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2FA1A6931D5934DA00FCD279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA1A6861D5934DA00FCD279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA1A6801D5934DA00FCD279 = {
+			isa = PBXGroup;
+			children = (
+				2FA1A68B1D5934DA00FCD279 /* Altair */,
+				2FA1A68A1D5934DA00FCD279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA1A68A1D5934DA00FCD279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA1A6891D5934DA00FCD279 /* Altair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA1A68B1D5934DA00FCD279 /* Altair */ = {
+			isa = PBXGroup;
+			children = (
+				2FA1A68C1D5934DA00FCD279 /* AppDelegate.swift */,
+				2FA1A68E1D5934DA00FCD279 /* Assets.xcassets */,
+				2FA1A6901D5934DA00FCD279 /* MainMenu.xib */,
+				2FA1A6931D5934DA00FCD279 /* Info.plist */,
+				2FA1A6991D5957B400FCD279 /* App */,
+			);
+			path = Altair;
+			sourceTree = "<group>";
+		};
+		2FA1A6991D5957B400FCD279 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2F4E1AED1D5C02B7007EDB13 /* altairApp */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA1A6881D5934DA00FCD279 /* Altair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA1A6961D5934DA00FCD279 /* Build configuration list for PBXNativeTarget "Altair" */;
+			buildPhases = (
+				2FA1A6851D5934DA00FCD279 /* Sources */,
+				2FA1A6861D5934DA00FCD279 /* Frameworks */,
+				2FA1A6871D5934DA00FCD279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Altair;
+			productName = Altair;
+			productReference = 2FA1A6891D5934DA00FCD279 /* Altair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA1A6811D5934DA00FCD279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jason Elwood";
+				TargetAttributes = {
+					2FA1A6881D5934DA00FCD279 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2FA1A6841D5934DA00FCD279 /* Build configuration list for PBXProject "Altair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA1A6801D5934DA00FCD279;
+			productRefGroup = 2FA1A68A1D5934DA00FCD279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA1A6881D5934DA00FCD279 /* Altair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA1A6871D5934DA00FCD279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4E1AEE1D5C02B7007EDB13 /* altairApp in Resources */,
+				2FA1A68F1D5934DA00FCD279 /* Assets.xcassets in Resources */,
+				2FA1A6921D5934DA00FCD279 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA1A6851D5934DA00FCD279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA1A68D1D5934DA00FCD279 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FA1A6901D5934DA00FCD279 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA1A6911D5934DA00FCD279 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FA1A6941D5934DA00FCD279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FA1A6951D5934DA00FCD279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2FA1A6971D5934DA00FCD279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Altair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.droppedpixel.Altair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FA1A6981D5934DA00FCD279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Altair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.droppedpixel.Altair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA1A6841D5934DA00FCD279 /* Build configuration list for PBXProject "Altair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA1A6941D5934DA00FCD279 /* Debug */,
+				2FA1A6951D5934DA00FCD279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA1A6961D5934DA00FCD279 /* Build configuration list for PBXNativeTarget "Altair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA1A6971D5934DA00FCD279 /* Debug */,
+				2FA1A6981D5934DA00FCD279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA1A6811D5934DA00FCD279 /* Project object */;
+}
